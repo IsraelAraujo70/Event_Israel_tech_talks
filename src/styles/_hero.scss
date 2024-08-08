@@ -1,0 +1,26 @@
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image:url(/dist/techtalk.0ae0045e.jpg) ;
+
+    padding: 80px 0px;
+    &__title{
+        color: #fff;
+        position: relative;
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 48px;
+        margin-bottom: 1em;
+    }
+    &:before{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        background-color: #000;
+        opacity: 0.8;
+    }
+}

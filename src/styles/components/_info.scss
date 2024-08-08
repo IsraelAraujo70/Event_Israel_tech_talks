@@ -1,0 +1,38 @@
+.info{
+    position: relative;
+    padding: 16px 24px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    &__content{
+        display: flex;
+        gap: 3em;
+        justify-content: space-around;
+        align-items: center;
+        &__item{
+            font-size: 14px;
+            color: #000;
+            b{
+                color: #000;
+                font-size: 18px;
+                display: block;
+            }
+        }
+    }
+    @media (max-width:640px){
+        width: 80%;
+        margin: 0 auto;
+        display: block;
+        &__content{
+            display: block;
+            margin-bottom: 1em;
+            &__item{
+                margin-bottom: 1em;
+                b{
+                    margin-bottom: 0.3em;
+                }
+            }
+        }
+    }
+}

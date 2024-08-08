@@ -1,0 +1,25 @@
+.btn{
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
+
+    &--primary{
+        background-color: #17b040;
+        &:hover{
+            background-color: darken(#17b040, 5);
+        }
+    }
+    @media (max-width:640px) {
+        display: block;
+        width: 100%;
+    }
+    @media (max-width:1024px) and (min-width:641px){
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}

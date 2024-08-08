@@ -1,0 +1,22 @@
+.events{
+    background-image: linear-gradient(#17be65, #042840);
+    color: #fff;
+    &__event{
+        padding: 3em 0;
+        display: flex;
+        gap: 4em;
+        &__image{
+            max-width: 280px;
+            width: 100%;
+            border-radius: 8px;
+        }
+        &__text{
+            h2{
+                margin-bottom: 1em;
+            }
+        }
+        &--left{
+            flex-direction: row-reverse;
+        }
+    }
+}
