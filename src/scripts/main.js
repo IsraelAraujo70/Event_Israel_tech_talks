@@ -1,5 +1,3 @@
-AOS.init();
-
 const dataDoEvento = new Date("Feb 11, 2025 19:00:00");
 const timeStampDoEvento = dataDoEvento.getTime();
 
@@ -27,3 +25,16 @@ const intervalo = setInterval(function(){
         document.querySelector('#timer').textContent = "Evento iniciado!";
     }
 }, 1000);
+
+document.addEventListener('DOMContentLoaded', function(e){
+    const bgd = document.querySelector('.events').styleList('background-image');
+
+    for(bgd.value >= '#042840'; i === 0; i++){
+        bgd.value + 1;
+    };
+    
+});
+
+
+
+AOS.init();
